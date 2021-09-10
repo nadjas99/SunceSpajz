@@ -14,7 +14,7 @@
 
 			$username = $mysqli->real_escape_string($username);
 			$password = $mysqli->real_escape_string($password);
-			//$password = md5($password);
+			
 			$sql = "SELECT * FROM users WHERE username='$username' AND password='$password'";
 			if($q=$mysqli->query($sql)){
 				if(mysqli_num_rows($q)>0) {
@@ -32,6 +32,7 @@
 					$msg = "Pogresan username i password";
 				}
 			} else {
+				
 				$msg = "Greska sa bazom.";
 			}
 

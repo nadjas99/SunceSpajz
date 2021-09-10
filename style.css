@@ -1,0 +1,80 @@
+html, body{
+	height: 100%;
+}
+
+/* .logo {
+	width: 30px;
+	height: 30px;
+	margin-left: 150px;
+	margin-bottom: 15px;
+} */
+
+.navbar-default{
+	background-color: chocolate;
+}
+
+.logout{
+	width: 20px;
+	height: 20px;
+	margin-right: 50px;
+}
+
+.navbar-default .navbar-nav li a{
+	color: white;
+}
+
+body{
+	background-image: url("img/pozadina.jpg");
+	background-size: cover;
+	
+	
+	/*background: -webkit-linear-gradient(to top, #ffed4c, #a94c00);  /* Chrome 10-25, Safari 5.1-6 */
+	/*background: linear-gradient(to top, #fff949, #f38b36); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+
+	
+
+    font-family: 'Papyrus';
+}
+
+body h1{
+			/* Prefix required. Even Firefox only supports the -webkit- prefix */
+		-webkit-text-stroke-width: 1px;
+		font-size: 75px;
+		
+}
+
+.jumbotron{
+	background-image: url(img/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.navbar-default{
+	border-color:#ffffff;
+}
+
+.gurni{
+
+	margin-left: 200px;
+}
+
+.navbar-default .navbar-nav  li  a:hover{
+	background-color: rgb(255, 255, 255);
+}
+
+
+@media only screen and (min-width: 768px) {
+	.login-form {
+		margin-top: 100px;
+	}
+}
+
+.col-lg-12{
+	color: chocolate;
+	
+	
+}
+.table{
+	background-color: wheat;
+}

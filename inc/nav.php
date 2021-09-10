@@ -1,0 +1,33 @@
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!-- <a class="navbar-brand" href="index.php"><img class="logo" src="img/haljina.png" alt=""></a> -->
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.php">Početna</span></a></li>
+          <li><a href="korpa.php">Korpa</a></li>
+          <li><a href="admin.php">Porudžbine</a></li>
+          <li><a href="dodaj.php">Dodaj</a></li>
+          <li><a href="izmeni.php">Izmeni</a></li>
+          <li><a href="obrisi.php">Obriši</a></li>
+          <li><a href="svi_proizvodi.php">Svi proizvodi</a></li>
+          
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+        <li><a class="btn btn-warning btn-sm" href="korpa.php" role="button">Pogledaj korpu</a></li>
+
+          <li><a href="logout.php">Logout <img class="logout" src="img/logout.png" alt=""></a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
