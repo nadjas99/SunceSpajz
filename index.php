@@ -80,7 +80,7 @@ if(!isset($_SESSION['userid'])) {
       var data = JSON.parse(json);
       // var dollar_rate = "";
       $.each( data, function( key, value ) {
-        $("table tbody").append("<tr><td>"+value.product_name+"</td><td>"+value.price+" EUR ("+value.price+" USD)</td><td><button class='btn btn-secondary btn-sm' onclick='otvoriModal("+value.id+")'>Dodaj u korpu</button></td></tr>");
+        $("table tbody").append("<tr><td>"+value.product_name+"</td><td>"+value.price+" rsd </td><td><button class='btn btn-secondary btn-sm' onclick='otvoriModal("+value.id+")'>Dodaj u korpu</button></td></tr>");
       });
     });
 
