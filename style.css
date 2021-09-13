@@ -27,13 +27,9 @@ body{
 	background-image: url("img/pozadina.jpg");
 	background-size: cover;
 	
-	
 	/*background: -webkit-linear-gradient(to top, #ffed4c, #a94c00);  /* Chrome 10-25, Safari 5.1-6 */
 	/*background: linear-gradient(to top, #fff949, #f38b36); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	
-
-	
-
     font-family: 'Papyrus';
 }
 
