@@ -81,7 +81,7 @@ if(!isset($_SESSION['userid'])) {
           alert(data.poruka);
         } else {
           $.each( data, function( key, value ) {
-            $("table tbody").append("<tr><td>"+value.proizvod+"</td><td>"+value.cena+" EUR</td><<td>"+value.kolicina+"</td>td><td>"+value.ukupno+" EUR</td><td><button class='btn btn-primary btn-sm' onclick='obrisiIzKorpe("+value.proizvod_id+")'>Obrisi proizvod</button></td></tr>");
+            $("table tbody").append("<tr><td>"+value.proizvod+"</td><td>"+value.cena+" rsd</td><<td>"+value.kolicina+"</td>td><td>"+value.ukupno+" rsd</td><td><button class='btn btn-primary btn-sm' onclick='obrisiIzKorpe("+value.proizvod_id+")'>Obrisi proizvod</button></td></tr>");
           });
         }
       });

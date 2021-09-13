@@ -48,7 +48,7 @@ $q=$mysqli->query($sql);
                 <tr>
                   <td><?php echo $red->username; ?></td>
                   <td><?php echo $red->product_name; ?></td>
-                  <td><?php echo $red->price; ?> EUR</td>
+                  <td><?php echo $red->price; ?>rsd</td>
                   <td><?php echo $red->quantity; ?></td>
                   <td><?php echo $red->address; ?></td>
                 </tr>
