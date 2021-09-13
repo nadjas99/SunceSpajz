@@ -14,7 +14,7 @@
 			echo json_encode($odgovor);
 		}
 	}
-
+	
 	if(isset($_GET['akcija']) && $_GET['akcija']=="dodajProizvodUKorpu") {
 		$podaci_json = file_get_contents("php://input");
 		$podaci = json_decode($podaci_json);
@@ -25,10 +25,9 @@
 			$odgovor['poruka'] = "Doslo je do greske";
 			echo json_encode($odgovor);
 		}
-
+		
 	}
 
-	
 	if(isset($_GET['akcija']) && $_GET['akcija']=="vratiNeobradjenePorudzbine") {
 		$sql="SELECT o.*, u.username FROM orders as o JOIN users as u ON o.user_id = u.id WHERE status=0";
 		if($q=$mysqli->query($sql)) {
@@ -69,6 +68,7 @@
 		}
 
 	}
+
     if(isset($_GET['akcija']) && $_GET['akcija']=="vratiProizvodeIzKorpe") {
 		if(isset($_SESSION['korpa'])) {
 			$niz = array();
@@ -98,6 +98,7 @@
 			echo json_encode($odgovor);
 		}
 	}
+
     if(isset($_GET['akcija']) && $_GET['akcija']=="posaljiPorudzbinu") {
 		$podaci_json = file_get_contents("php://input");
 		$podaci = json_decode($podaci_json);
@@ -120,6 +121,7 @@
 		}
 
 	}
+
     if(isset($_GET['akcija']) && $_GET['akcija']=="obrisiProizvodIzKorpe") {
 		$id_proizvoda = $_GET['proizvod_id'];
 		unset($_SESSION['korpa'][$id_proizvoda]);
@@ -127,8 +129,5 @@
 		echo json_encode($odgovor);
 
 	}
-
-	
-	
 
  ?>

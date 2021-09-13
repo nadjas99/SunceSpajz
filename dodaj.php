@@ -26,7 +26,7 @@ if(isset($_POST['submit'])) {
 <!DOCTYPE html>
 <html>
 <head>
-	<title>SportPro</title>
+	<title>Sunce</title>
 	<!-- Latest compiled and minified CSS -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap" rel="stylesheet"> 

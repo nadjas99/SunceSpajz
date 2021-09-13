@@ -7,7 +7,7 @@ if(!isset($_SESSION['userid'])) {
 <!DOCTYPE html>
 <html>
 <head>
-	<title>SportPro</title>
+	<title>Sunce</title>
 	
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap" rel="stylesheet"> 
